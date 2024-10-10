@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        #header {
+            background-color: #ff0000;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+        #header h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        #content {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .video {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            text-align: left;
+        }
+        .video-info {
+            display: flex;
+            align-items: left;
+        }
+        .video-description {
+            margin: 10px 10px 10px;
+        }
+        .video-image img {
+            max-width: 100%;
+            height: auto;
+        }
+        .video-title h2 {
+            font-size: 1.2em;
+            margin: 0 0 10px;
+        }
+        .video-seller p,
+        .video-price p {
+            margin: 5px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div class="video">
+            <div class="video-info">
+                <div class="video-image">
+                    <img src="https://via.placeholder.com/150" alt="video Image">
+                </div>
+                <div class="video-description">
+                    <div class="video-title">
+                        <h2>Video Title 1</h2>
+                    </div>
+                    <div class="video-uploader">
+                        <p>Infamous John</p>
+                    </div>
+                    <div class="video-views">
+                        <p>👁️ 943 🎥 2024-10-10</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <div class="video-info">
+                <div class="video-image">
+                    <img src="https://via.placeholder.com/150" alt="video Image">
+                </div>
+                <div class="video-description">
+                    <div class="video-title">
+                        <h2>Video Title 2</h2>
+                    </div>
+                    <div class="video-uploader">
+                        <p>Infamous John</p>
+                    </div>
+                    <div class="video-views">
+                        <p>👁️ 1317 🎥 2024-10-09</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <div class="video-info">
+                <div class="video-image">
+                    <img src="https://via.placeholder.com/150" alt="video Image">
+                </div>
+                <div class="video-description">
+                    <div class="video-title">
+                        <h2>Video Title 3</h2>
+                    </div>
+                    <div class="video-uploader">
+                        <p>Infamous John</p>
+                    </div>
+                    <div class="video-views">
+                        <p>👁️ 692 🎥 2024-10-10</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
